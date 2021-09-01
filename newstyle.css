@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* min-height: 100vh; */
+    background-color: rgb(187, 228, 243);
+    
+}
+footer{
+    margin-top: 10px; 
+    text-align: center;
+    display:block;
+    background-color:dodgerblue;
+    padding: 20px 0;
+    font-size: 1.5vw;
+    color: white;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+   width: 100%;
+   padding: 2vh 2vw;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box1 a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* background: #0ce297; */
+    /* background-image: linear-gradient(44deg,#0ce297,rgb(78, 223, 78),rgb(195, 250, 45) 95% ); */
+    background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #fff;
+    height: 13vh;
+    width: 29vw;
+    border: 1px solid black;
+    line-height: 44px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 3vh;
+}
+.box2{
+    display: flex;
+    justify-content:space-evenly;
+   width: 100%;
+   padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+   
+   
+}
+@media (max-width: 720px){
+    .card1 {
+       margin: 10px 0px;
+    }}
+.card1{
+    display: block;
+    justify-content: center;
+    padding: 1vh 1vw;
+    align-items: center;
+    width: min-content;
+    height: fit-content;
+    background-color: rgb(221, 253, 244);
+    border-radius: 20%;
+    border: 2px double dodgerblue;
+    transition: 0.5s;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    min-width: 300px;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(rgb(191, 255, 255),rgb(164, 255, 164));
+    border-radius: 30%;
+    margin-bottom: 1.5vh;
+}
+.card-content{
+    display: none;
+    letter-spacing: 1px;
+    font-size: 3vh;
+    text-align: center;
+    padding: 8px;
+   /* background-image: linear-gradient(rgb(78, 209, 209),rgb(119, 208, 119)); */
+   background-color: dodgerblue;
+    border-radius: 30px;
+    margin-bottom: 2vh;
+   
+    
+}
+.card-content p{
+    font-size: 2.5vh;
+    
+}
+.card1:hover .card-content{
+    display: block;
+    
+}
+
+.card1:hover{
+    box-shadow: 18px 17px 24px 0px rgb(13, 87, 92);
+    
+}
+.box3{
+    display: flex;
+    justify-content: center;
+   width: 100%;
+   padding: 2vh 2vw;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+.box3 a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #fff;
+    height: 13vh;
+    width: fit-content;
+    padding: 0px 10px;
+    border: 1px solid dodgerblue;
+    line-height: 44px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* font-size: 3vh; */
+    font-size: 2.5vh;
+ 
+}
+.box3 a:hover{
+    background-image: linear-gradient(45deg,white,rgb(202, 235, 253));
+    
+    color: rgb(1, 140, 182);
+    
+    box-shadow: 13px 12px 30px -3px  rgb(69, 190, 255);
+}
+@media (max-width: 897px){
+    .box3 a {
+    font-size: 2.5vh;
+}}
+@media (max-width: 513px){
+    .box3 a {
+    font-size: 2.2vh;
+}}
+@media (max-width: 468px){
+    .box3 a {
+    font-size: 1.8vh;
+}}
+@media (max-width: 409px){
+    .box3 a {
+    font-size: 8px;
+}}
+@media (max-width: 384px){
+    .box3 a {
+    font-size: 9.4px;
+    line-height:30px;
+    letter-spacing: 0.5px;
+}}
+.box1 a:hover{
+    background-image: linear-gradient(45deg,white,rgb(202, 235, 253));
+    
+    color: rgb(1, 140, 182);
+    
+    box-shadow: 13px 12px 30px -3px  rgb(69, 190, 255);
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: rgb(253, 253, 253);
+}
